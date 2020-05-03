@@ -1,0 +1,27 @@
+.active{
+    background: green;
+}
+
+svg{
+    border-radius: 5px;
+    border: 1px solid green;
+}
+
+.btn-panel {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+button{
+    border-radius: 5px;
+    padding: 10px;
+    border: 0;
+    background: #00ccff;
+    margin: 5px;
+    outline: none;
+
+    &:disabled {
+        background: gray;
+    }
+}
